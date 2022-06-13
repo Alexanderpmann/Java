@@ -14,5 +14,13 @@ public class Program
 		joe.eatBananas();
 		
 		joe.climb();
+		// Bat Creation
+		// Attack three towns, eat two humans, and fly twice.
+		
+		Bat choco=new Bat();
+		for(int i=0; i<3; i++) choco.attackTown();
+		for(int i=0; i<2; i++) choco.eatHumans();
+		for(int i=0; i<2; i++) choco.fly();
+		
 	}
 };
